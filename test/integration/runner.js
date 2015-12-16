@@ -17,7 +17,7 @@ var util = require('util');
 var mocha = require('mocha');
 var log = new (require('captains-log'))();
 var TestRunner = require('waterline-adapter-tests');
-var Adapter = require('../../');
+var Adapter = require('../../lib/adapter');
 
 
 

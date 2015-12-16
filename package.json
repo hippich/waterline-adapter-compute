@@ -2,7 +2,7 @@
   "name": "waterline-compute",
   "version": "0.10.0",
   "description": "compute adapter for Sails / Waterline",
-  "main": "adapter.js",
+  "main": "lib/adapter.js",
   "scripts": {
     "test": "node test/integration/runner -R spec -b"
   },
