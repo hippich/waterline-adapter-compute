@@ -66,7 +66,7 @@ new TestRunner({
 
     // Default adapter config to use.
     config: {
-        schema: false
+        schema: true
     },
 
     // The set of adapter interfaces to test against.
