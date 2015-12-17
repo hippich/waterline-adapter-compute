@@ -4,7 +4,7 @@
 require('should');
 var Adapter = require('../../lib/adapter');
 
-describe('registerCollection', function () {
+describe('utilities', function () {
 
   it('should produce correct correct cartesian product', function() {
     var where = {
@@ -15,7 +15,8 @@ describe('registerCollection', function () {
 
     var options = Adapter.objectProduct(where);
 
-    options.should.deepEqual([ { a: 1, b: 'xyz', c: 'a' },
+    options.should.deepEqual([
+      { a: 1, b: 'xyz', c: 'a' },
       { a: 1, b: 'xyz', c: 'b' },
       { a: 1, b: 'xyz', c: 'c' },
       { a: 2, b: 'xyz', c: 'a' },
